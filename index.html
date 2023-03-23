@@ -1,0 +1,59 @@
+<html lang="en">
+<head>
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="css/shan.css">
+    <style>
+        body{
+            background-image: url(img/bg3.jpg);
+            background-size: cover;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="circle"></div>
+    <section>
+       
+        <header>
+            
+            <a href="https://www.facebook.com/cpcofficial2005"><img src="img/logo.jpg"></a>
+            <ul>
+                <li><a href="portfolio.html">HOME</a></li>
+                <li><a href="about.html">ABOUT</a></li>
+                <li><a href="activity.html">ACTIVITIES</a></li>
+                <li><a href="contact.html">CONTACT</a></li>
+            </ul>
+        </header>
+        <div class="content">
+            <div class="textbox">
+                <h1>Hello! There...</h1>
+                <h2><br>This is Rhea and Russel</h2>
+                <h3 font="georgia">From BSIT-1B</h3>
+                <h3>And This will be our portfolio</h3>
+                <h3>Where we compile our activities.</h3>
+                </div>
+                <ul class="pic">
+                    <li><img src="img/rhea2.jpg" onclick="imgSlider('rhea2.jpg')"  width="300" height="300"></li>
+                    <li><img src="img/img3.png" onclick="imgSlider('img3.png')" width="300" height="300"></li>
+                </ul>
+    </div>
+    </section>
+    <script type="text/javascript">
+        function imgSlider(anything){
+            document.querySelector('.user').src =anything;
+        }
+    </script>
+</body>
+<footer>
+   <ul>
+    <h5>RHEA LEQUIN IYAC</h5>
+    <h5>RUSSEL ENCALLADO SUMAGANG</h5>
+   </ul>
+    
+    
+</footer>
+</html>
