@@ -1,0 +1,151 @@
+*
+{
+    padding:0%;
+    margin: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+}
+body{
+    background-image: url(https://wallpapers.com/images/featured/6bly12umg2d4psr2.jpg);
+    background-size: cover;
+    background-repeat: repeat;
+
+}
+section{
+    position: relative;
+    padding: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+header{
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    width: 100px;
+    padding: 30px 400px;
+    display: flex;
+    justify-content: space-between;
+    align-items: right;
+}
+header ul{
+    position: relative;
+    display: flex;
+    float: right;
+    margin: 0;
+	padding: 0;
+}
+header ul li
+{
+    list-style: none;
+    display: inline-block;
+	margin-left: 10px;
+}
+header ul li a{
+    display: inline-block;
+    color: rgb(253, 253, 253);
+    font-weight: 400;
+    margin-left: 40px;
+    text-decoration: none;
+    text-align: right; 
+}
+header ul li a:hover
+{
+    color:rgb(0, 245, 143);
+}
+section header img{
+    align-items: center;
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+    float: center;
+    left: 0%;
+    top: 0%;
+}
+.pic img{
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    top: 20%;
+    left: 28%;
+    border-radius: 45%;
+    border: 3px solid rgb(36, 153, 133);
+
+}
+.rhea{
+    position: absolute;
+    height: 400px;
+    width: 300px;
+    text-decoration: none;
+    text-align: left; 
+    color: rgb(0, 0, 0);
+    font-family: cambria;
+    font-size: 110%;
+    background-color: rgb(105, 160, 241);
+    border-radius: 20%;
+    border: 4px solid rgb(18, 51, 46);
+    top: 55%;
+    left: 25%;   
+}
+.picrus img{
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    top: 20%;
+    right: 28%;
+    border-radius: 45%;
+    border: 3px solid rgb(36, 153, 133);
+
+}
+.rus{
+    position: absolute;
+    height: 400px;
+    width: 300px;
+    text-decoration: none;
+    text-align: left; 
+    color: rgb(0, 0, 0);
+    font-family: cambria;
+    font-size: 110%;
+    background-color: rgb(105, 160, 241);
+    border-radius: 20%;
+    border: 4px solid rgb(18, 51, 46);
+    top: 55%;
+    right: 25%;
+    
+}
+div.title{
+    position: relative;
+    display: inline-block;
+    justify-content: center;
+    top: 600;
+    font-size: 50;
+
+}
+div h1{
+    color: rgb(160, 230, 230);
+}
+
+div.gallery {
+    position: relative;
+    margin: 10px;
+   
+    width: 180px;
+    display: inline-block;
+    bottom: 0%;
+    left:0%;
+    
+  }
+  
+  div.gallery:hover {
+    border: 1px solid #777;
+  }
+  
+  div.gallery img {
+    position: absolute;
+    top: 1800%;
+    width: 100%;
+    height: auto;
+    
+  }
